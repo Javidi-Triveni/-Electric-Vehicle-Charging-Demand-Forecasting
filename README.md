@@ -121,7 +121,7 @@ Electric-Vehicle-Charging-Demand-Forecasting/
 * Incorporate real-time data streaming for continuous updates.
 
 
-## 🙌 Conclusion
+## Conclusion
 
 This project successfully demonstrates the forecasting of EV charging demand using machine learning and time-based analysis.
 The implementation emphasizes clarity, reproducibility, and interpretability — key principles expected in professional data science workflows.
