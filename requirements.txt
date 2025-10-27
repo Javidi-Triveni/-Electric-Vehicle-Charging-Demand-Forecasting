@@ -1,8 +1,23 @@
-pandas==2.2.2
-numpy==1.26.4
-matplotlib==3.9.0
-scikit-learn==1.5.0
-xgboost==2.0.3
-prophet==1.1.5
-tqdm==4.66.4
-jupyterlab==4.2.2
+Core Data Libraries 
+pandas==2.2.2          # Data manipulation and cleaning
+numpy==1.26.4          # Numerical operations and matrix handling
+
+Visualization 
+matplotlib==3.9.0      # Static charts and visualizations
+# plotly==5.24.0        # (Optional) Interactive charts in Streamlit
+
+Machine Learning & Forecasting 
+scikit-learn==1.5.0    # Preprocessing, evaluation metrics, and regression tools
+xgboost==2.0.3         # Gradient boosting regression for demand forecasting
+prophet==1.1.5         # Time-series forecasting with trend and seasonality
+
+Utilities 
+tqdm==4.66.4           # Progress bar for loops and training
+python-dateutil==2.9.0 # Date handling (used internally by Prophet)
+pytz==2024.1           # Timezone conversions for datetime data
+
+Development Environment 
+jupyterlab==4.2.2      # Interactive notebook environment for experimentation
+
+Deployment / Visualization Interface
+streamlit==1.38.0      # Interactive dashboard alternative to Tableau
