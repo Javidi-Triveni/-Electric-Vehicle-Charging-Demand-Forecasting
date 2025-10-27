@@ -28,7 +28,7 @@ The entire workflow — from data preprocessing to forecasting and visualization
 ---
 
 ## ⚙️ Tools & Technologies
-                                                                 |
+                                                               
 Tool         -Purpose
 Python       -(Prophet, XGBoost)	Data cleaning, forecasting, evaluation
 Excel	       -Data merging and initial analysis
