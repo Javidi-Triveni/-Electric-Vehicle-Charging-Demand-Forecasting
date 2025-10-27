@@ -1,12 +1,8 @@
-
 # 🚗 **Electric Vehicle Charging Demand Forecasting**
 
 ## 📘 Overview
-
 This project focuses on forecasting electric vehicle (EV) charging demand using data-driven machine learning methods. The analysis helps identify peak demand hours and station utilization patterns to support smart energy and infrastructure planning.
-
 The entire workflow — from data preprocessing to forecasting and visualization — is implemented in a single Jupyter Notebook: `ev_station_analysis.ipynb`, ensuring simplicity, reproducibility, and clarity.
-
 
 ## 🎯 Objectives
 
@@ -14,7 +10,6 @@ The entire workflow — from data preprocessing to forecasting and visualization
 * Analyze temporal (hour/day) and weather-based demand patterns.
 * Generate actionable insights for optimizing charging station distribution.
 * Visualize results interactively using Tableau and Python plots.
-
 
 ## 🧠 Key Features
 
@@ -35,7 +30,6 @@ Excel	       -Data merging and initial analysis
 Tableau      -Dashboard & visualization
 Matplotlib / Pandas- Visualization and analysis
 Environment	- Jupyter Notebook
-
 
 ## 🧩 Modeling Workflow
 
@@ -69,14 +63,12 @@ The results were visualized using Tableau and Python-based charts:
 * City-Level Forecast: Displays overall predicted demand trends.
 * Station-Level Plots: Show localized demand fluctuations for individual stations.
 
-
 ## 📈 Results & Insights
 
 * Peak charging demand occurs between 18:00–21:00 hours.
 * Weekdays show consistently higher utilization compared to weekends.
 * The XGBoost model achieved strong performance (MAE: 2.513, RMSE: 4.668).
 * Station-level analysis revealed key hotspots for future charger placement.
-
 
 ## 🧩 Project Folder Structure
 
@@ -113,14 +105,12 @@ Electric-Vehicle-Charging-Demand-Forecasting/
 ```
 
 
-
 ## 🪄 Future Improvements
 
 * Integrate Prophet for trend-based forecasting comparison.
 * Expand per-station forecasting automation.
 * Deploy Streamlit app or Tableau public dashboard.
 * Incorporate real-time data streaming for continuous updates.
-
 
 ## 🙌 Conclusion
 
