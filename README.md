@@ -1,14 +1,14 @@
 
-# 🚗 **Electric Vehicle Charging Demand Forecasting**
+**Electric Vehicle Charging Demand Forecasting**
 
-## 📘 Overview
+## Overview
 
 This project focuses on forecasting electric vehicle (EV) charging demand using data-driven machine learning methods. The analysis helps identify peak demand hours and station utilization patterns to support smart energy and infrastructure planning.
 
 The entire workflow — from data preprocessing to forecasting and visualization — is implemented in a single Jupyter Notebook: `ev_station_analysis.ipynb`, ensuring simplicity, reproducibility, and clarity.
 
 
-## 🎯 Objectives
+## Objectives
 
 * Predict hourly EV charging demand at the station and city level.
 * Analyze temporal (hour/day) and weather-based demand patterns.
@@ -16,18 +16,17 @@ The entire workflow — from data preprocessing to forecasting and visualization
 * Visualize results interactively using Tableau and Python plots.
 
 
-## 🧠 Key Features
+## Key Features
 
  Complete analysis implemented in Jupyter Notebook (`ev_station_analysis.ipynb`)
-✅ Data preprocessing, feature engineering, and weather data integration
-✅ XGBoost-based regression forecasting for hourly and city-level demand
-✅ Evaluation using MAE and RMSE metrics
-✅ Visualization of station and time-level patterns (hour × weekday)
-✅ Optional Streamlit dashboard for browser-based interaction
+-> Data preprocessing, feature engineering, and weather data integration
+-> XGBoost-based regression forecasting for hourly and city-level demand
+-> Evaluation using MAE and RMSE metrics
+-> Visualization of station and time-level patterns (hour × weekday)
+-> Optional Streamlit dashboard for browser-based interaction
 
----
 
-## ⚙️ Tools & Technologies
+## Tools & Technologies
                                                                
 Tool         -Purpose
 Python       -(Prophet, XGBoost)	Data cleaning, forecasting, evaluation
@@ -37,7 +36,7 @@ Matplotlib / Pandas- Visualization and analysis
 Environment	- Jupyter Notebook
 
 
-## 🧩 Modeling Workflow
+## Modeling Workflow
 
 1 Data Preparation
 
@@ -51,8 +50,8 @@ The full project workflow — including preprocessing, model training, and visua
 It:
 
 * Performs exploratory data analysis (EDA) on station-level usage.
-* Trains an **XGBoost regression model** for forecasting hourly demand.
-* Evaluates performance using **MAE** and **RMSE**.
+* Trains an XGBoost regression model for forecasting hourly demand.
+* Evaluates performance using MAE and RMSE.
 * Produces final forecasts and visual insights for each station.
 
 > *(Note: The Python script `ev_forecast_train.py` provides a command-line version of the training process. Running it is optional and not required for reproducing results.)*
@@ -61,7 +60,7 @@ It:
 | Model   | MAE   | RMSE  |
 | XGBoost | 2.513 | 4.668 |
 
-## 📊 Visualization
+## Visualization
 
 The results were visualized using Tableau and Python-based charts:
 
@@ -70,7 +69,7 @@ The results were visualized using Tableau and Python-based charts:
 * Station-Level Plots: Show localized demand fluctuations for individual stations.
 
 
-## 📈 Results & Insights
+## Results & Insights
 
 * Peak charging demand occurs between 18:00–21:00 hours.
 * Weekdays show consistently higher utilization compared to weekends.
@@ -78,7 +77,7 @@ The results were visualized using Tableau and Python-based charts:
 * Station-level analysis revealed key hotspots for future charger placement.
 
 
-## 🧩 Project Folder Structure
+## Project Folder Structure
 
 ```
 Electric-Vehicle-Charging-Demand-Forecasting/
@@ -114,7 +113,7 @@ Electric-Vehicle-Charging-Demand-Forecasting/
 
 
 
-## 🪄 Future Improvements
+## Future Improvements
 
 * Integrate Prophet for trend-based forecasting comparison.
 * Expand per-station forecasting automation.
